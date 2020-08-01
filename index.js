@@ -1,6 +1,7 @@
 import {Cliente} from './Cliente.js';
-import {ContaCorrente} from './Contas/ContaCorrente.js';
 import {Conta} from './Contas/Conta.js';
+import {ContaCorrente} from './Contas/ContaCorrente.js';
+import {ContaPoupanca} from './Contas/ContaPoupanca.js';
 
 let cliente1 = new Cliente('Thiago', 12345678900);
 let cliente2 = new Cliente('Richard', 12365478912);
